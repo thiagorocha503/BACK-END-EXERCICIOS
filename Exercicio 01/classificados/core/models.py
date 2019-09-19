@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Anuncio(models.Model):
     cliente = models.CharField("Cliente", max_length=50)
@@ -11,5 +12,5 @@ class Anuncio(models.Model):
     tipo = models.CharField("Tipo", max_length=30)
 
     class Meta:
-        verbose_name =  "Anúncio"
+        verbose_name = "Anúncio"
         verbose_name_plural = "Anúncios"
